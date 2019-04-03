@@ -16,7 +16,7 @@ Class Connection{
  
 	private $server = "mysql:host=localhost;dbname=crud1";
 	private $username = "root";
-	private $password = "3266root";
+	private $password = "123456";
 	private $options  = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,);
 	protected $conn;
  	
